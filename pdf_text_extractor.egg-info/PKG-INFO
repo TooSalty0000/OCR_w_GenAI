@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: pdf-text-extractor
+Version: 0.1.0
+Requires-Python: >=3.7
+Requires-Dist: pdf2image
+Requires-Dist: Pillow
+Requires-Dist: python-dotenv
+Requires-Dist: click
+Requires-Dist: google-generativeai
+Requires-Dist: openai
+Requires-Dist: cryptography
+Dynamic: requires-dist
+Dynamic: requires-python
