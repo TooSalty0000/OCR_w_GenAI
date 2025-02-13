@@ -179,7 +179,3 @@ This package uses several open-source libraries:
 ## Support
 
 If you encounter any issues or have questions, please file an issue on the GitHub repository.
-
-```
-
-```
