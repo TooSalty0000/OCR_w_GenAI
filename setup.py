@@ -10,7 +10,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(
-        include=["pdf_extractor", "pdf_extractor.*"]
+        include=["pdfgenius", "pdfgenius.*"]
     ),  # Explicitly include packages
     install_requires=[
         "pdf2image",
@@ -23,7 +23,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "extract-pdf=pdf_extractor.cli:main",
+            "extract-pdf=pdfgenius.cli:main",
         ],
     },
     python_requires=">=3.7",
