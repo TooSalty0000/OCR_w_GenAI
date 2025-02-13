@@ -1,7 +1,0 @@
-pdf2image
-Pillow
-python-dotenv
-click
-google-generativeai
-openai
-cryptography
