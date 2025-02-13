@@ -2,3 +2,5 @@
 *.pdf
 *_extracted.txt
 *.egg-info
+build/
+dist/

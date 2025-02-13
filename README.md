@@ -1,6 +1,6 @@
-# PDF Text Extractor
+# PDF GENIUS
 
-PDF Text Extractor is a powerful Python package that converts PDF documents into text using AI-powered optical character recognition (OCR). It currently supports both Google's Gemini and OpenAI's GPT-4 Vision models for text extraction, with an extensible architecture that makes it easy to add support for additional AI models.
+PDF GENUIS is a powerful Python package that converts PDF documents into text using AI-powered optical character recognition (OCR). It currently supports both Google's Gemini and OpenAI's GPT-4 Vision models for text extraction, with an extensible architecture that makes it easy to add support for additional AI models.
 
 ## Features
 
@@ -17,7 +17,7 @@ PDF Text Extractor is a powerful Python package that converts PDF documents into
 You can install the package using pip:
 
 ```bash
-pip install pdf-text-extractor
+pip install pdfgenius
 ```
 
 The package requires Python 3.7 or later.
