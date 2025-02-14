@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pdfgenius",
-    version="0.1.0",
+    version="0.1.2",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(
@@ -23,7 +23,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "extract-pdf=pdfgenius.cli:main",
+            "pdfgenius=pdfgenius.cli:main",
         ],
     },
     python_requires=">=3.7",
