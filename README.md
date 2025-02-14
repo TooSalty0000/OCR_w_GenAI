@@ -47,10 +47,10 @@ Extract text from a PDF using the default Gemini model:
 
 ```bash
 # Store your API key (one-time setup)
-extract-pdf keys add gemini "your-gemini-api-key"
+pdfgenius keys add gemini "your-gemini-api-key"
 
 # Extract text from PDF
-extract-pdf extract document.pdf
+pdfgenius extract document.pdf
 ```
 
 ## API Key Management
@@ -59,14 +59,14 @@ The package provides secure local storage for your API keys. You can manage them
 
 ```bash
 # Add an API key
-extract-pdf keys add gemini "your-gemini-api-key"
-extract-pdf keys add openai "your-openai-api-key"
+pdfgenius keys add gemini "your-gemini-api-key"
+pdfgenius keys add openai "your-openai-api-key"
 
 # List stored keys (shows partial keys for security)
-extract-pdf keys list
+pdfgenius keys list
 
 # Delete a stored key
-extract-pdf keys delete gemini
+pdfgenius keys delete gemini
 ```
 
 ## Command Line Usage
@@ -75,29 +75,29 @@ extract-pdf keys delete gemini
 
 ```bash
 # Extract using default settings (Gemini model)
-extract-pdf extract document.pdf
+pdfgenius extract document.pdf
 
 # Specify output file
-extract-pdf extract document.pdf -o output.txt
+pdfgenius extract document.pdf -o output.txt
 
 # Use OpenAI model
-extract-pdf extract document.pdf -m openai
+pdfgenius extract document.pdf -m openai
 
 # Provide API key directly (without storing)
-extract-pdf extract document.pdf -m openai --api-key "your-api-key"
+pdfgenius extract document.pdf -m openai --api-key "your-api-key"
 ```
 
 ### Full Command Reference
 
 ```bash
 # Show help
-extract-pdf --help
+pdfgenius --help
 
 # Show help for extract command
-extract-pdf extract --help
+pdfgenius extract --help
 
 # Show help for key management
-extract-pdf keys --help
+pdfgenius keys --help
 ```
 
 ## Python API
